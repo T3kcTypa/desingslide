@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Yeseva One")
+            url("../fontss/YesevaOne-Regular.woff2") format("woff2")
+            url("../fontss/YesevaOne-Regular.woff") format("woff")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
