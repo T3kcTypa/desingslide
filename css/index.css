@@ -43,7 +43,7 @@ body {
     text-transform: uppercase;
 }
 
-.active, .slide__title:hover {
+.actived, .slide__title:hover { 
     color: rgba(227, 184, 115, 1);
 
     color: rgba(227, 184, 115, 1);
@@ -56,7 +56,15 @@ body {
     padding-top: 45px;
     padding-left: 540px;
 
+    /* display: flex; */
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+.slide__main {
+    width: 1121px;
+    height: 700px;
     display: flex;
+    flex-direction: row;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -152,7 +160,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 1;
+    margin-top: -270px;
 }
 
 .circle {
